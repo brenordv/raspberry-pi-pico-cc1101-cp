@@ -49,6 +49,20 @@ if __name__ == "__main__":
 
 ## Images
 Here are some images of the breadboard with all setup and the schematic.
+
+When I created the schematic, I copied exactly what I had on the breadboard, so it's not the best schematic, but it works.
+About the pins, (as you can see in the pictures) the chip is upside down, so to know which pin is which, check the list below, 
+find the red (VIN), and black (GND) and you can go from there.
+Consider the pins as such:
+1. VIN
+2. GND
+3. GDO0
+4. CSN
+5. SCLK
+6. SI
+7. SO
+8. GDO2
+
 ![Schematic](.images/board_schematic.png)
 ![Board Overview](.images/board_overview.jpeg)
 ![Board CC1101 POV 1](.images/board_cc1101_pov1.jpeg)
